@@ -1,7 +1,7 @@
 name: AutoDelete (@mesinpencaribot)
 on:
   schedule:
-    - cron: 0 0 * * 0
+    - cron: 5 7 * * sun
   workflow_dispatch:
 jobs:
   Proses_Backup:
